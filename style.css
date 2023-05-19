@@ -1,0 +1,42 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+  padding: 1% 10%;
+  
+}
+.nav-link{
+color:white;
+  /* margin: 10px; */
+  transition: .4s;
+}
+header{
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/bg-1.jpg);
+}
+.banner-container h1{
+  font-size: 3.5rem;
+  /* background: rgba(0, 0, 0, 0.3); */
+   padding: 10px 20px
+}
+.banner-container{
+  height: 90vh;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
